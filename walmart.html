@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pickers — Case study| Kary Quezada</title>
+<meta name="description" content=".">
+<style>
+:root{--bg:#0B0C0E;--ink:#F7F7F9;--muted:#B8B9BD;--line:#23252B;--brand:#6E56CF;--brand-strong:#5B3FC6;--brand-soft:#A78BFA}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+.container{max-width:1080px;margin:auto;padding:40px 20px}
+h1,h2{line-height:1.2;margin:0 0 10px}
+h2{margin-top:28px;position:relative;padding-bottom:8px}
+h2:after{content:"";display:block;width:56px;height:3px;background:#0B0C0E;margin-top:8px;border-radius:2px}
+.card{border:1px solid var(--line);border-radius:16px;padding:18px;background:#14161C;margin-top:16px}
+.two-col{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.two-col .text{flex:2 1 520px}
+.two-col .visual{flex:1 1 320px}
+.two-col img{max-width:100%;border-radius:12px;border:1px solid var(--line)}
+.hero{border-bottom:1px solid var(--line)}
+.hero .badge{display:inline-block;background:linear-gradient(135deg,#6E56CF,#0B0C0E);padding:.35rem .6rem;border-radius:999px;font-weight:700}
+.meta{color:var(--muted);margin-top:6px}
+.btn{display:inline-block;margin-top:8px;padding:.6rem 1rem;border-radius:12px;text-decoration:none;font-weight:800;background:linear-gradient(135deg,#6E56CF,#0B0C0E);color:#fff}
+footer{border-top:1px solid var(--line);color:var(--muted);padding:20px;text-align:center;margin-top:36px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="container">
+     <a class="btn" href="https://karyrq.github.io/portfolio/index.html">Volver al portafolio</a>
+    <h1>Platform Improvement Pickers</h1>
+    <p class="meta">Rol: UX Research 
+      <br>Role: UX Research
+<br>Methods: Interviews with platform users (internal and external pickers), user personas, user journeys, benchmarking, prioritization with the Iceberg model</p>
+  </div>
+</header>
+<main class="container">
+
+<section class="card two-col">
+  <div class="text">
+    <h2>Objective</h2>
+    <p>The goal of this project was to optimize the interaction between pickers, clients, and stores, aiming to increase productivity and ensure that pickers could perform their work more efficiently.
+.</p>
+  </div>
+  <div class="visual">
+    <img src="images/picker.jpg" alt="Objetivo">
+  </div>
+</section>
+
+<section class="card two-col">
+  <div class="text">
+    <h2>Interviews</h2>
+    <p>We engaged with both internal and external pickers to gain a deeper understanding of their daily work. This information allowed us to explore how to merge two existing applications into a single platform, ensuring it remained functional and adaptable to the different delivery formats.</p>
+  </div>
+  <div class="visual">
+    <img src="images/entrevista.jpg" alt="Entrevista">
+  </div>
+</section>
+
+<section class="card two-col">
+  <div class="text">
+    <h2>User personas</h2>
+    <p>From the interviews, we identified key differences between internal and external pickers. Based on this, we created detailed user personas that outlined each group’s needs and challenges. This helped us better understand their contexts and informed the design of their user journeys.</p>
+  </div>
+  <div class="visual">
+    <img src="images/persona.jpg" alt="User persona">
+  </div>
+</section>
+
+<section class="card two-col">
+  <div class="text">
+    <h2>User journeys</h2>
+    <p>With the user personas defined, we developed user journeys for each profile. These visualizations helped us identify shared touchpoints, potential interactions between the two profiles, and opportunities to improve their experience in a unified platform. At the same time, we highlighted the most critical pain points that needed to be addressed.</p>
+  </div>
+  <div class="visual">
+    <img src="images/journey.png" alt="User journey">
+  </div>
+</section>
+
+<section class="card two-col">
+  <div class="text">
+    <h2>Benchmarking</h2>
+    <p>A market analysis was conducted to review competitors and understand how their delivery platforms for pickers were structured. Both national and international examples were evaluated, allowing us to identify best practices and propose solutions that would be more functional and effective for both picker profiles.</p>
+  </div>
+  <div class="visual">
+    <img src="images/benchmarking.png" alt="Benchmarking">
+  </div>
+</section>
+
+<section class="card two-col">
+  <div class="text">
+    <h2>Prioritization with Iceberg Model</h2>
+    <p>Using the insights gathered throughout the research, we created a prioritization matrix based on the Iceberg model. This matrix highlighted the most critical pain points to both product and business teams, justifying the urgency of addressing each one. As a result, business stakeholders were able to make decisions that had an immediate impact on pickers’ experience without requiring deep structural changes to the platform at that stage.</p>
+  </div>
+  <div class="visual">
+    <img src="images/iceberg.png" alt="Priorización iceberg">
+  </div>
+</section>
+
+<a class="btn" href="https://karyrq.github.io/portfolio/index.html">Back to portfolio</a>
+<a class="btn btn-outline" href="#top">Up</a>
+
+</main>
+<footer>© <span id="year"></span> Kary Quezada</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
